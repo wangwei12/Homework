@@ -1,0 +1,81 @@
+body{
+				margin: 0px;
+				padding: 0px;
+			}
+			ul li{
+				list-style: none;
+			}
+			.ui-bar-f{
+				color: white;
+				background-color: dodgerblue;
+			}
+			.card{
+				width: 90%;
+				height: 120px;
+				margin: 15px auto;
+				background:-webkit-linear-gradient(right,white,cornflowerblue);
+				border-radius: 10px;
+			}
+			.headPic{
+				height: 50%;
+				width: 60px;
+				margin-top: 30px;
+				margin-left: 8px;
+			}
+			#user{
+				display: inline-block;
+				position: relative;
+				top: -20px;
+				left: 80px;
+				color: white;
+			}
+			.shopinf{
+				width: 90%;
+				margin: 10px auto;
+				height: 80px;
+				background-color: white;
+				border-radius: 10px;
+			}
+			#infoul{
+				padding-left: 4px;
+			}
+			#infoul li{
+				float: left;
+				margin-left: 26px;
+			}
+			#infoul li img{
+				width: 50px;
+				height: 50px;
+			}
+			#infoul li p{
+				margin-top: 1px;
+				margin-left: -5px;
+			}
+			#twoul{
+				padding-left: 0px;
+			}
+			#twoul li{
+				float:left ;
+	
+				margin-left: 26px;
+			}
+			#twoul span{
+				display: inline-block;
+				margin-top: 10px;
+				margin-left: 15px;
+			}
+			
+			#twoul p{
+				margin-left: 13px;
+
+			}
+			#thirdul li{
+				float:left ;
+	
+				margin-left: 30px;
+			}
+			#thirdul span{
+				display: inline-block;
+				margin-top: 10px;
+				margin-left: 15px;
+			}

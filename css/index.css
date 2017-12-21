@@ -1,0 +1,86 @@
+body{
+				margin: 0px;
+				padding: 0px;
+			}
+			ul,li{
+				list-style: none;
+			}
+			.swiper-container{
+				height: 50px;
+				margin-bottom: 50px;
+				overflow: visible;
+			}
+			.swiper-wrapper{
+				height: 80px;
+			}
+			.swiper-wrapper div img{
+				width: 100%;
+				height: 100px;
+			}
+			.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+				bottom: -50px;
+				left: 0px;
+				width: 100%;
+			}
+			.ui-input-search{
+				margin: 0px 0px;
+			}
+			.ui-footer-fixed{
+				position: fixed;
+			}
+			#goodlist{
+			
+				margin: 0px 5px;
+			    height: 1500px;
+			}
+			#clabt{
+				height: 10px;
+				text-align: center;
+				font-size: 5px;
+			}
+			#goodul{
+				padding:3px 0px;
+			}
+			#goodul li{
+				width: 198px;
+				height: 260px;
+				float: left;
+				
+				margin-top: 20px;
+			}
+			#goodul li img{
+				width: 201px;
+				height: 220px;
+			}
+			#goodul li p{
+				font-family: "微软雅黑";
+				font-size: 15px;
+				margin-top: 2px;
+			}
+			.ui-bar-f{
+				color: white;
+				background-color: dodgerblue;
+			}
+			.ui-btn-f{
+				background-color: #b7e2ff;
+			}
+			#foot{
+				margin-top: 23px;
+			}
+			.price{
+				color: red;
+				font-size: 25px;
+			}
+			.titles{
+				margin-bottom: 5px;
+			}
+			.moneys{
+				font-size: 20px;
+			}
+			#selects option{
+				width: 200px;
+				
+			}
+			.ui-field-contain{
+				border-bottom-style: none;
+			}

@@ -1,0 +1,39 @@
+body{
+    		margin: 0px;
+    		padding: 0px;
+ 
+    	}
+    	.ui-page{
+    		background-image: url(../img/loginback.jpg);
+    	}
+    	img{
+    		width: 200px;
+    		height: 200px;
+    	}
+    	.image{
+    		position: relative;
+    		margin-top:80px ;
+    		left: 25%;
+    	}
+    	#content{
+    		padding:0px 20px ;
+    	}
+    	#content div{
+    		margin-bottom: 30px;	
+  
+    	}
+    	#content div input{
+    		margin: 5px 0px;
+    	}
+    	.abtn{
+    		margin: 5px 15px;
+   
+    	}
+    	#register{
+    		margin-left: 290px;
+    		margin-top: 5px;
+    	}
+    	#register span{
+    		color: black;
+    		font:10px "微软雅黑";
+    	}

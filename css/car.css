@@ -1,0 +1,52 @@
+html body{
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			ul li{
+				list-style: none;
+			}
+			.carlist{
+				height: 500px;
+				padding-left: 25px;
+			}
+			.carlist img{
+				width: 110px;
+				height: 110px;
+			}
+			.content{
+				display: inline-block;
+				width: 220px;
+				height: 120px;
+				
+			}
+			.names{
+				margin-left: 5px;
+			}
+			.price{
+				margin-top:50px ;
+				color: red;
+				
+				
+			}
+			.focus{
+				position: relative;
+				top: -45px;
+				left: -10px;
+				height: 15px;
+				width: 15px;
+			}
+			#dele{
+				display: inline-block;
+				color: black;
+				margin-left: 120px;
+			}
+			#caculate{
+				color: red;
+				font-size: 15px;
+			}
+			.ui-bar-f{
+				color: white;
+				background-color: dodgerblue;
+			}
+			

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+		<script src="js/jquery-2.2.2.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/detail.js">
+        	
+        </script>
+	</head>
+	<body>
+		<div id="pageone" data-role="page">
+			<!--头部-->
+			<div class="wrappe" id="wrap">
+				<div class="scroller">
+					<ul>
+						<li class="cur" style="">商品介绍</li>
+						<li class="argus">规格参数</li>
+						<li class="cover">包装售后</li>
+						<li >.</li>
+					</ul>	
+				</div>
+			</div>
+				
+
+			<!--内容-->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-prev"></div>
+            	<div class="swiper-but	ton-next"></div>
+		    </div>
+		    
+		    <h3 id="titles"></h3>
+		    <p id="yang"></p><span id="count"></span>
+		    <div id="infone">
+		    	<p class="barwra"><span class="barinf">白条</span>[白条支付]首单立减5元</p>
+		    	<p class="barwra" style="color: indianred;margin-bottom: 5px;"><span class="barinf">促销</span>
+		    		满499元-40元，满999元减100元
+		    	</p>
+		    	<p class="barwra" style="margin:5px 0px 5px 35px; color: indianred;"><span class="barinf" ></span>此价格不与套装优惠同时享受</p>
+		    	<p class="barwra"><span class="barinf">运费</span>免运费</p>
+		    </div>
+		    
+			<!--底部		-->    
+		    <div id="foot" data-role="footer" data-position="fixed">
+		    	<div id="" data-role="navbar">
+		    		<ul>
+		    			<li id="back"><a>返回</a></li>
+		    			<li id="focus"><a>关注</a></li>
+		    			<li id="add"><a>加入购物车</a></li>
+		    		</ul>
+		    	</div>
+		    </div>
+		</div>
+		
+		<script src="js/swiper.min.js"></script>
+		<script src="js/jquery-2.2.2.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/navbarscroll.js"></script>
+        <script src="js/iscroll.js"></script>
+        <script>
+			$(function(){
+				$('.wrappe').navbarscroll();
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>易购主页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/jquery-2.2.2.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		
+	</head>
+	<body>
+		<div id="" data-role="page">
+			  <div data-role="header" id="" data-position="fixed" data-theme="f">	
+					<h2>热门购买</h2>
+			  </div>
+	       	  <input type="search" name="" id="find" value="" placeholder="输入商品点击放大镜搜哦"/>
+	<!--<div data-role="content">-->
+			<div class="swiper-container">
+			  	<div class="swiper-wrapper">
+			  		<div class="swiper-slide">
+			  			<img src="img/inslide01.jpg" />
+			  		</div>
+			  		<div class="swiper-slide">
+			  			<img src="img/inslide02.jpg" />
+			  		</div>
+			  		<div class="swiper-slide">
+						<img src="img/inslide03.jpg" />			  			
+			  		</div>
+			  		<div class="swiper-slide">
+			  			<img src="img/inslide04.jpg"/>
+			  		</div>
+			  		<div class="swiper-slide">
+			  			<img src="img/inslide05.jpg"/>
+			  		</div>
+			  	</div>
+			  	<div id="" class="swiper-pagination">
+			  		
+			  	</div>
+			</div>
+			<div class="ui-field-contain">  
+	            <select name="select-native-1" id="selects" data-iconpos="false">  
+	                <option value="1">分类</option>  
+	            </select>  
+        	</div>  
+			<div id="goodlist">
+				<ul id="goodul">	
+				</ul>
+			</div>
+			<!--</div>-->
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="" class="ui-btn-active" data-theme="f">易热点</a></li>
+						<li><a href="">易社区</a></li>
+						<li><a href="" id="carhref">购物车</a></li>
+						<li><a href="" id="settings">我的易购</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+	         
+		</div>
+		<script src="js/jquery-2.2.2.js"></script>
+		<script src="js/swiper.min.js"></script>
+    	
+    	<script type="text/javascript">
+			var swiper=new Swiper('.swiper-container',{
+	    	    	autoplay:3000,
+	    	    	loop:true,
+	    	    	pagination:'.swiper-pagination'
+	    	   });	</script>
+	</body>
+	
+</html>

@@ -1,0 +1,47 @@
+html body{
+				position: relative;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			ul li{
+				list-style: none;
+			}
+			.ui-bar-f{
+				color: white;
+				background-color: dodgerblue;
+			}
+			#showlist{
+				margin: 0px 5px;
+			    height: 1500px;
+			}
+			#shows{
+				padding:3px 0px;
+				 height: 1500px;
+			}
+			#shows li{
+				width: 50%;
+				height: 260px;
+				float: left;
+				
+				margin-top: 20px;
+			}
+			#shows li img{
+				width: 201px;
+				height: 220px;
+			}
+			#shows li p{
+				font-family: "微软雅黑";
+				font-size: 15px;
+				margin-top: 2px;
+			}
+			.price{
+				color: red;
+				font-size: 25px;
+			}
+			.titles{
+				margin-bottom: 5px;
+			}
+			.moneys{
+				font-size: 20px;
+			}
