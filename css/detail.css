@@ -1,0 +1,83 @@
+.swiper-container{
+				width: 100%;
+				height: 300px;
+			}
+			ul li{
+				list-style: none;
+			}
+			img{
+				width: 370px;
+				height: 300px;
+			}
+			.wrappe{
+		
+			height: 50px;
+			position: relative;
+			}
+			.scroller{
+				height: 50px;
+				color: white;
+				background-color: dodgerblue;
+			}
+			.wrappe{
+				background-color: dodgerblue;
+			}
+			.wrappe .scroller{
+				position: absolute;
+				
+			}
+			.wrappe li{
+				height: 50px;
+				float: left;
+				line-height: 50px;
+				padding: 0 20px;
+				
+			}
+			.scroller ul{
+				margin-top: -1px;
+			}
+			.cur{
+				border-bottom:3px solid white;
+			}
+			.swiper-slide img{
+				width: 100%;
+			}
+			.swiper-button-prev{
+				display: none;
+			}
+			.swiper-button-next{
+				display: none;
+			}
+			#titles{
+				margin-bottom: -6px;
+			   margin-left: 5px;
+			}
+			#yang{
+				color: red;
+				font-size: 25px;
+				margin-top: 13px;
+				margin-bottom: 5px;
+			
+			}
+			#count{
+				color: purple;
+				font-size: 5px;
+				margin-left: 5px;
+			}
+			#infone{
+				background-color: whitesmoke;
+				height: 120px;
+	
+			}
+			.barinf{
+				color: darkgray;
+				margin-left: 5px;
+				margin-right: 15px;
+			}
+			.barwra{
+				color: black;
+				font: bolder;
+			}
+			.sale-service{
+				
+			}

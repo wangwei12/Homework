@@ -1,0 +1,32 @@
+body{
+    		margin: 0px;
+    		padding: 0px;
+ 
+    	}
+    	.ui-page{
+    		background-image: url(../img/loginback.jpg);
+    	}
+    	img{
+    		width: 200px;
+    		height: 200px;
+    	}
+    	.image{
+    		position: relative;
+    		margin-top:80px ;
+    		left: 25%;
+    	}
+    	#content{
+    		margin-top:200px ;
+    		padding:0px 20px ;
+    	}
+    	#content div{
+    		margin-bottom: 25px;	
+            
+    	}
+    	#content div input{
+    		margin: 5px 0px;
+    	}
+    	.abtn{
+    		margin: 5px 15px;
+   
+    	}
